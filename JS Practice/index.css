@@ -1,0 +1,42 @@
+body {
+  background-image: url("substation.jpeg");
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  transition: background 300ms ease-in;
+}
+
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding: 10px 0 10px 0;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+/* Background styling is the only seperate styling among the buttons*/
+#increment-btn {
+  background: darkred;
+}
+
+#save-btn {
+  background: darkgreen;
+}
+
+#save-el {
+  color: white;
+}
